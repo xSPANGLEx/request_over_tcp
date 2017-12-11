@@ -22,7 +22,7 @@ class HTTPRequester(Requester):
             body = self._body
         else:
             body = ""
-        if method == "POST":
+        if body:
             content_length = str(len(body))
             self._headers.append("Content-Length: %s" % content_length)
         self._headers.append("Host: %s" % self._host)
