@@ -60,3 +60,4 @@ class HTTPRequester(Requester):
         response.set_status_code(status_code)
         response.set_header(header)
         response.set_body(body)
+        return response
