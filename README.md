@@ -1,2 +1,2 @@
-# requester_over_tcp
-Requester over tcp.
+# request_over_tcp
+Request over tcp.
